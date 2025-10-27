@@ -66,10 +66,10 @@ export function Contact() {
                     className: "w-5 h-5 text-black",
                   })}
                 </div>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
+                <Typography variant="h5" color="white" className="mb-2">
                   {title}
                 </Typography>
-                <Typography className="font-normal text-blue-gray-500">
+                <Typography className="font-normal text-blue-gray-200">
                   {description}
                 </Typography>
               </Card>
