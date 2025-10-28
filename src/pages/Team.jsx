@@ -40,7 +40,8 @@ export function Team() {
                 </div>
       </div>
 
-      <section className="container mx-auto px-4 pb-20 pt-8">
+      <div className="bg-gray-800">
+        <section className="container mx-auto px-4 pb-20 pt-8 bg-gray-700">
         <PageTitle section="Testimonials" heading=""></PageTitle>
 
         <div
@@ -80,12 +81,13 @@ export function Team() {
                 key={t.id}
                 onClick={() => setIndex(i)}
                 aria-label={`Go to testimonial ${i + 1}`}
-                className={`h-2 w-8 rounded-full transition-all ${i === index ? 'bg-blue-600 w-10' : 'bg-gray-300'}`}
+                className={`h-2 w-8 rounded-full transition-all ${i === index ? 'bg-black w-10' : 'bg-gray-300'}`}
               />
             ))}
           </div>
         </div>
       </section>
+      </div>
 
       <Footer />
     </>

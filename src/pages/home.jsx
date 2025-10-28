@@ -10,7 +10,6 @@ import {
   Textarea,
   Checkbox,
 } from "@material-tailwind/react";
-import { FingerPrintIcon, UsersIcon } from "@heroicons/react/24/solid";
 import { FaCar, FaLaptopCode } from 'react-icons/fa6'
 import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard, TestimonialCard } from "@/widgets/cards";
@@ -193,7 +192,7 @@ export function Home() {
             
           </PageTitle>
           <div className="mx-auto mt-20 grid max-w-7xl grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-            {testimonialsData.map(({ id, content, name, position, image }) => (
+            {testimonialsData.slice(2,5).map(({ id, content, name, position, image}) => (
               <TestimonialCard
                 key={id}
                 content={content}

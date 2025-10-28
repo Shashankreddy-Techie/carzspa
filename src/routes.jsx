@@ -1,4 +1,5 @@
 import { Home, Profile, Services, Video, Contact, Gallery, Team } from "@/pages";
+import Api from "./pages/Api";
 
 export const routes = [
   {
@@ -35,6 +36,11 @@ export const routes = [
     name: "Contact Us",
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    name: "Api Fetch",
+    path: "/api",
+    element: <Api />,
   },
 ];
 

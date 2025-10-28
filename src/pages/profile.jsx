@@ -30,10 +30,10 @@ export function Profile() {
           </Typography>
         </div>
       </section>
-      <section className="relative bg-gray-50 py-16">
+      <section className="relative bg-gray-600 py-16">
         <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words">
           <div className="container mx-auto">
-            <div className="rounded-xl bg-white p-6 shadow-lg ring-1 ring-yellow-800">
+            <div className="rounded-xl bg-gray-300 p-6 shadow-lg ring-1 ring-yellow-800">
               <div className="flex flex-col lg:flex-row justify-between">
                 <div className="relative flex gap-8 items-start">
                   <div className="-mt-20 w-44">
@@ -191,11 +191,11 @@ export function Profile() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="absolute bottom-0 left-0 right-0 p-4">
-                        <Typography variant="h6" className="text-white font-semibold">
-                          Project {i+1}
+                        <Typography variant="h6" className="text-white font-bold">
+                          Work {i+1}
                         </Typography>
-                        <Typography className="text-gray-200 text-sm">
-                          Professional Car Detailing
+                        <Typography className="text-gray-200 text-sm font-semibold">
+                          CarzSpa Vehicle Detailing
                         </Typography>
                       </div>
                     </div>
